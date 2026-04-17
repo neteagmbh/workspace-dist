@@ -2,20 +2,6 @@
 
 *zsh workspaces* is a tool to create and manage development workspaces.
 
-## Documentation
-
-- **[Architecture Overview](doc/workspace_architecture.md)** - System architecture, design patterns, and component structure
-- **[Activation Logic](doc/activation_logic.md)** - Workspace activation and shell environment setup
-- **[Configuration Management](doc/configuration_management.md)** - Global and workspace-level configuration
-- **[Workspace Discovery](doc/workspace_discovery.md)** - Pattern matching and workspace discovery algorithm
-- **[Environment Processing](doc/environment_processing.md)** - Environment variable substitution and processing
-
-### Test Documentation
-- [Activation Tests](doc/tests/activation_tests.md)
-- [List Command Tests](doc/tests/list_tests.md)
-- [Config Command Tests](doc/tests/config_tests.md)
-- [Show Command Tests](doc/tests/show_tests.md)
-
 ## Setup
 
 This tool is written in rust with additional support in zsh / bash.
@@ -23,6 +9,7 @@ This tool is written in rust with additional support in zsh / bash.
 ### Dependencies
 
 * glow - cli command for rendering markdown files
+* git - repository management
 
 
 ### Compilation Instructions
